@@ -1,0 +1,54 @@
+﻿# Complete Academic AI Assistant - Production Requirements
+# Optimized for 8GB RAM laptops
+
+# Core AI/ML Components
+sentence-transformers==2.2.2
+scikit-learn==1.3.0
+faiss-cpu==1.7.4
+numpy==1.24.3
+pandas==2.0.3
+
+# NLP & Voice Processing
+openai-whisper==20230314
+sounddevice==0.4.6
+scipy==1.11.1
+pyttsx3==2.90
+
+# Security & Encryption
+cryptography==41.0.3
+PyJWT==2.8.0
+
+# Document Processing
+PyPDF2==3.0.1
+python-docx==0.8.11
+python-pptx==0.6.21
+
+# Date/Time Processing
+dateparser==1.1.8
+python-dateutil==2.8.2
+
+# Web Automation
+selenium==4.15.0
+webdriver-manager==4.0.1
+
+# HTTP & API
+requests==2.31.0
+aiohttp==3.9.1
+
+# Google APIs (Optional - for calendar integration)
+google-auth==2.23.4
+google-auth-oauthlib==1.1.0
+google-auth-httplib2==0.1.1
+google-api-python-client==2.108.0
+
+# GUI (Optional)
+PyQt5==5.15.9
+
+# Utilities
+python-dotenv==1.0.0
+colorama==0.4.6
+tqdm==4.66.1
+
+# Lightweight alternatives for low RAM
+# torch==2.1.0 --index-url https://download.pytorch.org/whl/cpu
+# (Uncomment above if needed, but sentence-transformers will install it)
